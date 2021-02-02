@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulaire d'inscription</title>
+</head>
+
+<body>
+    <h2>formulaire D'inscription</h2>
+    <div class="container">
+        <form>
+
+            <div class="F-name">
+                <label class="info" for="nom-et-prenom">nom et prenom:</label>
+                <input class="inputt" type="text" id="nom et prenom">
+            </div>
+
+            <div class="mail">
+                <label class="info" for="email-et-prenom">Email:</label>
+                <input class="inputt" type="email" id="email">
+            </div>
+
+            <div class="pass">
+                <label class="info" for="mot-de-passe">mot de passe:</label>
+                <input class="inputt" type="password" id="mot de passe">
+            </div>
+
+            <div class="chek-password">
+                <label class="info" for="mot-de-passe">confirmé mot de passe:</label>
+                <input class="inputt" type="password" id="confirmé mot de passe">
+            </div>
+            <div class="phone">
+                <label class="info" for="numero-de-tel">numero de tel:</label>
+                <input class="inputt" type="text" id="numero de tel">
+            </div>
+            <div class="stat">
+                <label class="info" for="status">status:</label>
+                <select class="inputt" id="status" name="status">
+                        
+                            <option value="" disabled selected>Selectionner</option>
+                            <option value="student">Student</option>
+                            <option value="software-Developer">Software Developer</option>
+                            <option value="software-Engineer">Software Engineer</option>
+                            <option value="web-Designer">Web Designer</option>
+                        </select>
+            </div>
+
+            <div class="adres">
+
+                <label class="info" for="adress local">adress local:</label>
+                <textarea class="text" name="message" rows="11" cols="65"></textarea>
+            </div>
+            <div class="check"> <input type="checkbox" checked="checked name=" sameadr>J'accepte les conditions d'inscription
+            </div>
+            <div> <button class="button">s'inscrire</button>
+            </div>
+
+        </form>
+
+
+
+</body>
+
+</html>

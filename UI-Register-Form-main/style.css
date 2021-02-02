@@ -1,0 +1,122 @@
+                /* Ajoutez votre style css içi */
+                
+                * {
+                    box-sizing: border-box;
+                    margin: 0;
+                    padding: 0;
+                }
+                
+                body {
+                    background: linear-gradient(90deg, hsla(186, 33%, 94%, 1) 0%, hsla(216, 41%, 79%, 1) 100%);
+                }
+                
+                h2 {
+                    Font-family: Roboto - 50pt;
+                    font-size: 40px;
+                    display: flex;
+                    justify-content: center;
+                    margin-bottom: 40px;
+                }
+                
+                .container {
+                    Font-family: Roboto - 50pt;
+                    font-style: inherit;
+                    display: flex;
+                    flex-wrap: wrap;
+                    flex-direction: column;
+                    align-content: center;
+                }
+                
+                .info {
+                    Font-family: Roboto - 23PX;
+                    font-size: 25px;
+                    margin: auto;
+                    margin-top: 2%;
+                    margin-left: 60px;
+                }
+                
+                .inputt {
+                    Font-family: Roboto - 23PX;
+                    border-radius: 41px;
+                    width: 500px;
+                    height: 50px;
+                }
+                
+                .button {
+                    color: floralwhite;
+                    font-size: 19px;
+                    background-color: black;
+                    width: 800px;
+                    height: 50px;
+                    border-radius: 48px;
+                    margin-top: 40px;
+                }
+                
+                .button:hover {
+                    background-color: whitesmoke;
+                }
+                
+                .F-name {
+                    margin-top: 30px;
+                    display: flex;
+                    justify-content: space-around;
+                }
+                
+                .mail {
+                    margin-top: 32px;
+                    display: flex;
+                    justify-content: space-around;
+                }
+                
+                .pass {
+                    margin-top: 34px;
+                    display: flex;
+                    justify-content: space-around;
+                }
+                
+                .chek-password {
+                    margin-top: 36px;
+                    display: flex;
+                    justify-content: space-around;
+                }
+                
+                .phone {
+                    margin-top: 38px;
+                    display: flex;
+                    justify-content: space-around;
+                }
+                
+                .stat {
+                    margin-top: 39px;
+                    display: flex;
+                    justify-content: space-around;
+                }
+                
+                .adres {
+                    margin-top: 39px;
+                    display: flex;
+                    justify-content: space-around;
+                }
+                
+                .text {
+                    border-radius: 48px;
+                }
+                
+                .check {
+                    position: static;
+                    margin-top: 20px;
+                    margin-left: 70px;
+                    font-size: 20px;
+                }
+                
+                .checked {
+                    margin-left: 50px;
+                }
+                
+                @media (max-width: 375px) {
+                    .container {
+                        top: -21%;
+                        left: -57%;
+                        max-width: 100%;
+                    }
+                }
